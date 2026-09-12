@@ -93,3 +93,9 @@ Original recipe capture, semantic interpretation, live language adaptation and p
 `measureback/recipe.py` owns quantities and source validation. `measureback/calle.py` owns the CALL E contract and durable approval ledger. `measureback/server.py` owns the loopback UI boundary. `web/` contains the browser interface. `scripts/smoke_provider.py` is the fake HTTP provider exercise.
 
 Application code is MIT licensed. Atkinson Hyperlegible Next is bundled under its SIL Open Font License in `web/fonts/OFL.txt`.
+
+## Demo production
+
+The browser recording and narration scripts are optional production tools, not application dependencies. `scripts/record_demo.cjs` records actual local browser interactions with outbound calls blocked. `scripts/render_demo.cjs` makes a local narration reference on macOS. `scripts/render_deepgram.cjs` replaces that narration with Deepgram Aura 2 Thalia and rebuilds the caption timing while preserving the recorded video.
+
+The Deepgram script takes the recording output directory as its argument and reads one credential line from standard input. Use a non-echoing credential prompt or a secret manager; do not put the key in a command argument or source file. Only the authored narration text is sent to Deepgram. This optional command uses the account's TTS quota and never falls back silently to another voice. Generated audio, video and receipts remain in the ignored `output/` directory.
