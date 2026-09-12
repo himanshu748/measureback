@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-12T07:39:54.865Z",
+  "title": "Design System: MeasureBack",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cool Gray Ground",
+        "tonalRamp": [
+          "oklch(15.00% 0.0045 134.85)",
+          "oklch(26.43% 0.0045 134.85)",
+          "oklch(37.86% 0.0045 134.85)",
+          "oklch(49.29% 0.0045 134.85)",
+          "oklch(60.71% 0.0045 134.85)",
+          "oklch(72.14% 0.0045 134.85)",
+          "oklch(83.57% 0.0045 134.85)",
+          "oklch(95.00% 0.0045 134.85)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Charcoal",
+        "tonalRamp": [
+          "oklch(15.00% 0.0061 134.93)",
+          "oklch(26.43% 0.0061 134.93)",
+          "oklch(37.86% 0.0061 134.93)",
+          "oklch(49.29% 0.0061 134.93)",
+          "oklch(60.71% 0.0061 134.93)",
+          "oklch(72.14% 0.0061 134.93)",
+          "oklch(83.57% 0.0061 134.93)",
+          "oklch(95.00% 0.0061 134.93)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Charcoal",
+        "tonalRamp": [
+          "oklch(15.00% 0.0126 118.26)",
+          "oklch(26.43% 0.0126 118.26)",
+          "oklch(37.86% 0.0126 118.26)",
+          "oklch(49.29% 0.0126 118.26)",
+          "oklch(60.71% 0.0126 118.26)",
+          "oklch(72.14% 0.0126 118.26)",
+          "oklch(83.57% 0.0126 118.26)",
+          "oklch(95.00% 0.0126 118.26)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Divider Gray",
+        "tonalRamp": [
+          "oklch(15.00% 0.0109 112.39)",
+          "oklch(26.43% 0.0109 112.39)",
+          "oklch(37.86% 0.0109 112.39)",
+          "oklch(49.29% 0.0109 112.39)",
+          "oklch(60.71% 0.0109 112.39)",
+          "oklch(72.14% 0.0109 112.39)",
+          "oklch(83.57% 0.0109 112.39)",
+          "oklch(95.00% 0.0109 112.39)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Vermilion",
+        "tonalRamp": [
+          "oklch(15.00% 0.1810 32.68)",
+          "oklch(26.43% 0.1810 32.68)",
+          "oklch(37.86% 0.1810 32.68)",
+          "oklch(49.29% 0.1810 32.68)",
+          "oklch(60.71% 0.1810 32.68)",
+          "oklch(72.14% 0.1810 32.68)",
+          "oklch(83.57% 0.1810 32.68)",
+          "oklch(95.00% 0.1810 32.68)"
+        ]
+      },
+      "accent-deep": {
+        "role": "primary",
+        "displayName": "Deep Vermilion",
+        "tonalRamp": [
+          "oklch(15.00% 0.1591 32.90)",
+          "oklch(26.43% 0.1591 32.90)",
+          "oklch(37.86% 0.1591 32.90)",
+          "oklch(49.29% 0.1591 32.90)",
+          "oklch(60.71% 0.1591 32.90)",
+          "oklch(72.14% 0.1591 32.90)",
+          "oklch(83.57% 0.1591 32.90)",
+          "oklch(95.00% 0.1591 32.90)"
+        ]
+      },
+      "screen": {
+        "role": "secondary",
+        "displayName": "Butter Display",
+        "tonalRamp": [
+          "oklch(15.00% 0.0873 110.81)",
+          "oklch(26.43% 0.0873 110.81)",
+          "oklch(37.86% 0.0873 110.81)",
+          "oklch(49.29% 0.0873 110.81)",
+          "oklch(60.71% 0.0873 110.81)",
+          "oklch(72.14% 0.0873 110.81)",
+          "oklch(83.57% 0.0873 110.81)",
+          "oklch(95.00% 0.0873 110.81)"
+        ]
+      },
+      "screen-ink": {
+        "role": "secondary",
+        "displayName": "Display Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0429 124.77)",
+          "oklch(26.43% 0.0429 124.77)",
+          "oklch(37.86% 0.0429 124.77)",
+          "oklch(49.29% 0.0429 124.77)",
+          "oklch(60.71% 0.0429 124.77)",
+          "oklch(72.14% 0.0429 124.77)",
+          "oklch(83.57% 0.0429 124.77)",
+          "oklch(95.00% 0.0429 124.77)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White Sheet",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 89.88)",
+          "oklch(26.43% 0.0000 89.88)",
+          "oklch(37.86% 0.0000 89.88)",
+          "oklch(49.29% 0.0000 89.88)",
+          "oklch(60.71% 0.0000 89.88)",
+          "oklch(72.14% 0.0000 89.88)",
+          "oklch(83.57% 0.0000 89.88)",
+          "oklch(95.00% 0.0000 89.88)"
+        ]
+      },
+      "quiet": {
+        "role": "neutral",
+        "displayName": "Quiet Gray",
+        "tonalRamp": [
+          "oklch(15.00% 0.0093 106.58)",
+          "oklch(26.43% 0.0093 106.58)",
+          "oklch(37.86% 0.0093 106.58)",
+          "oklch(49.29% 0.0093 106.58)",
+          "oklch(60.71% 0.0093 106.58)",
+          "oklch(72.14% 0.0093 106.58)",
+          "oklch(83.57% 0.0093 106.58)",
+          "oklch(95.00% 0.0093 106.58)"
+        ]
+      },
+      "instrument": {
+        "role": "neutral",
+        "displayName": "Scale Casing",
+        "tonalRamp": [
+          "oklch(15.00% 0.0108 112.38)",
+          "oklch(26.43% 0.0108 112.38)",
+          "oklch(37.86% 0.0108 112.38)",
+          "oklch(49.29% 0.0108 112.38)",
+          "oklch(60.71% 0.0108 112.38)",
+          "oklch(72.14% 0.0108 112.38)",
+          "oklch(83.57% 0.0108 112.38)",
+          "oklch(95.00% 0.0108 112.38)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Control Edge",
+        "tonalRamp": [
+          "oklch(15.00% 0.0141 115.91)",
+          "oklch(26.43% 0.0141 115.91)",
+          "oklch(37.86% 0.0141 115.91)",
+          "oklch(49.29% 0.0141 115.91)",
+          "oklch(60.71% 0.0141 115.91)",
+          "oklch(72.14% 0.0141 115.91)",
+          "oklch(83.57% 0.0141 115.91)",
+          "oklch(95.00% 0.0141 115.91)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Main heading",
+        "purpose": "Balanced workbench headline."
+      },
+      "headline": {
+        "displayName": "Section introduction",
+        "purpose": "Larger task introductions."
+      },
+      "title": {
+        "displayName": "Section title",
+        "purpose": "Method and transcript section headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Baseline reading typography; compact supporting sizes are contextual."
+      },
+      "label": {
+        "displayName": "Compact label",
+        "purpose": "Persistent form labels and compact metadata."
+      },
+      "reading": {
+        "displayName": "Measurement reading",
+        "purpose": "Large tabular quantity within the inset display."
+      }
+    },
+    "shadows": [
+      {
+        "name": "instrument-body",
+        "value": "0 12px 28px -20px #383b32",
+        "purpose": "Small soft lift beneath the instrument casing."
+      },
+      {
+        "name": "inset-display",
+        "value": "inset 0 2px 5px #323b221f",
+        "purpose": "Seats the yellow display within its casing."
+      },
+      {
+        "name": "subtle-control-edge",
+        "value": "inset 0 0 0 1px #b8bab0",
+        "purpose": "Fine control stroke; does not imply elevation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-background",
+        "value": "background .15s",
+        "purpose": "Primary and subtle button hover transition."
+      },
+      {
+        "name": "readout-change",
+        "value": "filter: blur(2px) to blur(0); 300ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "One authored transition when the visible measurement changes."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce)",
+        "purpose": "Remove animation and transitions, and disable smooth scrolling."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1050px"
+      },
+      {
+        "name": "single-column",
+        "value": "760px"
+      },
+      {
+        "name": "wide-instrument",
+        "value": "1500px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main next action, with an optional authored arrow.",
+      "html": "<button type=\"button\" class=\"ds-primary\">Ask about the bowl <svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" aria-hidden=\"true\"><path d=\"M4 12h16m-5-5 5 5-5 5\"/></svg></button>",
+      "css": ".ds-primary{font-family:var(--font,MB,'Helvetica Neue',Arial,sans-serif);display:inline-flex;align-items:center;justify-content:center;gap:22px;min-height:44px;padding:11px 18px;border:0;border-radius:7px;background:var(--accent,#c83c22);color:var(--white,#fff);font-size:16px;font-weight:650;line-height:1.5;cursor:pointer;transition:background .15s}.ds-primary svg{margin-left:auto;stroke:currentColor;stroke-width:1.7;fill:none;flex-shrink:0}.ds-primary:hover{background:#a62f18}.ds-primary:focus-visible{outline:3px solid var(--accent,#c83c22);outline-offset:4px;}.ds-primary:disabled{opacity:.45;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Subtle button",
+      "kind": "button",
+      "refersTo": "button-subtle",
+      "description": "A secondary action with a fine inset edge and quiet hover surface.",
+      "html": "<button type=\"button\" class=\"ds-subtle\">Prepare a call <svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></button>",
+      "css": ".ds-subtle{font-family:var(--font,MB,'Helvetica Neue',Arial,sans-serif);display:inline-flex;align-items:center;justify-content:center;gap:22px;min-height:44px;padding:11px 18px;border:0;border-radius:7px;background:transparent;color:var(--ink,#292b28);box-shadow:inset 0 0 0 1px #b8bab0;font-size:16px;font-weight:650;line-height:1.5;cursor:pointer;transition:background .15s}.ds-subtle svg{margin-left:auto;stroke:currentColor;stroke-width:1.7;fill:none;flex-shrink:0}.ds-subtle:hover{background:#e7e8df}.ds-subtle:focus-visible{outline:3px solid var(--accent,#c83c22);outline-offset:4px;}.ds-subtle:disabled{opacity:.45;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-subtle{transition:none}}"
+    },
+    {
+      "name": "Labeled text field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "A persistent label above a white field, sharing the product's focus and caret treatment.",
+      "html": "<label class=\"ds-field\">Recipe to ask about<input class=\"ds-input\" name=\"recipe_title\" placeholder=\"For example, Sunday cumin rice\" maxlength=\"100\"></label>",
+      "css": ".ds-field{font-family:var(--font,MB,'Helvetica Neue',Arial,sans-serif);display:block;max-width:420px;color:var(--ink,#292b28);font-size:12px;font-weight:550;line-height:1.5}.ds-input{font-family:var(--font,MB,'Helvetica Neue',Arial,sans-serif);display:block;width:calc(100% - 26px);margin-top:5px;padding:11px 12px;border:1px solid #b8bcb0;border-radius:5px;background:var(--white,#fff);color:var(--ink,#292b28);font-size:14px;caret-color:var(--accent,#c83c22)}.ds-input::placeholder{color:#71766a;opacity:1}.ds-input:focus-visible{outline:3px solid var(--accent,#c83c22);outline-offset:4px;}"
+    },
+    {
+      "name": "Conversation stages",
+      "kind": "nav",
+      "refersTo": "stage-navigation",
+      "description": "Joined stage buttons with visible sequence and a charcoal selected state.",
+      "html": "<nav class=\"ds-stages\" aria-label=\"Conversation stages\"><button type=\"button\" class=\"ds-stage\" aria-pressed=\"true\"><span class=\"ds-stage-number\">1</span>The missing measure</button><button type=\"button\" class=\"ds-stage\" aria-pressed=\"false\"><span class=\"ds-stage-number\">2</span>Ask the cook</button><button type=\"button\" class=\"ds-stage\" aria-pressed=\"false\"><span class=\"ds-stage-number\">3</span>Read it back</button></nav>",
+      "css": ".ds-stages{font-family:var(--font,MB,'Helvetica Neue',Arial,sans-serif);display:flex;border:1px solid var(--line,#d7d8d0);border-radius:8px;overflow:hidden;max-width:800px}.ds-stage{font-family:var(--font,MB,'Helvetica Neue',Arial,sans-serif);display:flex;align-items:center;justify-content:center;flex:1;gap:12px;min-height:48px;padding:13px 18px;border:0;border-right:1px solid var(--line,#d7d8d0);background:transparent;color:var(--muted,#65675f);font-size:12px;line-height:1.5;cursor:pointer}.ds-stage:last-child{border-right:0}.ds-stage[aria-pressed=true]{background:var(--ink,#292b28);color:var(--white,#fff)}.ds-stage:hover:not([aria-pressed=true]){background:var(--quiet,#ecece5)}.ds-stage:focus-visible{outline:3px solid var(--accent,#c83c22);outline-offset:4px;}.ds-stage:disabled{opacity:.45;cursor:not-allowed}.ds-stage-number{display:inline-flex;align-items:center;justify-content:center;width:23px;height:23px;border:1px solid currentColor;border-radius:50%;font-size:12px;flex-shrink:0}@media(max-width:760px){.ds-stage{flex-direction:column;padding:12px 7px;gap:6px;line-height:1.25}.ds-stage-number{width:19px;height:19px;font-size:10px}}"
+    },
+    {
+      "name": "Spoken time tag",
+      "kind": "chip",
+      "refersTo": "time-tag",
+      "description": "A passive duration label whose wording preserves the spoken time.",
+      "html": "<span class=\"ds-time\">15 min · as spoken</span>",
+      "css": ".ds-time{font-family:var(--font,MB,'Helvetica Neue',Arial,sans-serif);display:inline-block;padding:2px 7px;border-radius:4px;background:#e5e9d8;color:#455131;font-size:12px;line-height:1.5}"
+    },
+    {
+      "name": "Recipe sheet",
+      "kind": "card",
+      "refersTo": "recipe-sheet",
+      "description": "A flat ingredient ledger with aligned quantities and source affordances; sample content is illustrative.",
+      "html": "<section class=\"ds-sheet\" aria-labelledby=\"ds-recipe-title\"><h2 class=\"ds-recipe-title\" id=\"ds-recipe-title\">Cumin rice</h2><p class=\"ds-origin\">Cook’s original recipe · 4 servings</p><div class=\"ds-ledger-label\"><span>INGREDIENT</span><span>FOR YOUR TABLE</span></div><div class=\"ds-ingredient\"><span class=\"ds-ingredient-name\">Rice<small class=\"ds-original\">2 bowls in the original</small></span><span class=\"ds-quantity ds-unresolved\">Measure needed<small class=\"ds-source-hint\">Ask the cook</small></span></div><p class=\"ds-recipe-note\"><strong>Times stay as spoken.</strong> Serving arithmetic does not predict how a larger batch will cook.</p></section>",
+      "css": ".ds-sheet{font-family:var(--font,MB,'Helvetica Neue',Arial,sans-serif);max-width:470px;padding:24px 27px 16px;border:1px solid var(--line,#d7d8d0);border-radius:var(--radius,14px);background:var(--white,#fff);color:var(--ink,#292b28)}.ds-recipe-title{margin:0;font-size:26px;font-weight:700;letter-spacing:-.025em;line-height:1.1}.ds-origin{margin:7px 0 23px;font-size:12px;color:var(--muted,#65675f)}.ds-ledger-label{display:flex;justify-content:space-between;gap:12px;font-size:12px;letter-spacing:.06em;color:var(--muted,#65675f)}.ds-ingredient{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 0}.ds-ingredient-name{font-size:15px;font-weight:500}.ds-original{display:block;font-size:12px;font-weight:400;margin-top:1px;color:var(--muted,#65675f)}.ds-quantity{text-align:right;font-size:18px;font-weight:600;font-variant-numeric:tabular-nums;line-height:1.2;max-width:52%;overflow-wrap:anywhere}.ds-unresolved{color:#9c401c;font-size:14px}.ds-source-hint{display:block;font-size:12px;font-weight:450;margin-top:3px;color:var(--muted,#65675f)}.ds-recipe-note{margin-top:9px;padding-top:14px;border-top:1px solid var(--line,#d7d8d0);font-size:12px;color:var(--muted,#65675f)}.ds-recipe-note strong{color:var(--ink,#292b28)}@media(max-width:760px){.ds-sheet{padding:23px 21px 18px}.ds-recipe-title{font-size:25px}}"
+    },
+    {
+      "name": "Measurement instrument",
+      "kind": "custom",
+      "refersTo": "measurement-instrument",
+      "description": "The signature casing, inset readout and source quotation, shown in the illustrative unresolved state.",
+      "html": "<section class=\"ds-instrument\" aria-labelledby=\"ds-measure-title\"><div class=\"ds-instrument-top\"><h2 class=\"ds-measure-title\" id=\"ds-measure-title\">The rice measure</h2><span class=\"ds-measure-status\">NEEDS CLARIFICATION</span></div><div class=\"ds-display\"><div class=\"ds-display-caption\">FOR 6 SERVINGS</div><div class=\"ds-reading\"><strong class=\"ds-reading-value\">?</strong><span class=\"ds-unit\">ml</span></div><div class=\"ds-calibration\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class=\"ds-formula\">2 bowls × unknown capacity × 1.5</div></div><div class=\"ds-source\"><span class=\"ds-source-label\">THE COOK’S WORDS</span><blockquote class=\"ds-quote\">“two bowls of rice”</blockquote><p class=\"ds-explanation\">A bowl is a container, not a standard unit. The amount stays open.</p></div></section>",
+      "css": ".ds-instrument{font-family:var(--font,MB,'Helvetica Neue',Arial,sans-serif);max-width:460px;padding:25px 26px 18px;border-radius:18px;background:#e4e5dd;color:var(--ink,#292b28);box-shadow:0 12px 28px -20px #383b32}.ds-instrument-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:20px}.ds-measure-title{margin:0;font-size:17px;font-weight:600;line-height:1.5}.ds-measure-status{max-width:49%;font-size:12px;font-weight:700;letter-spacing:.06em;text-align:right;line-height:1.5}.ds-display{padding:19px 25px 15px;border-radius:7px;background:var(--screen,#e8eca8);color:var(--screen-ink,#323b22);box-shadow:inset 0 2px 5px #323b221f}.ds-display-caption{font-size:12px;font-weight:650;letter-spacing:.09em}.ds-reading{display:flex;justify-content:center;align-items:baseline;gap:14px;min-height:139px}.ds-reading-value{font-size:clamp(80px,8vw,116px);font-weight:500;font-variant-numeric:tabular-nums;letter-spacing:-.035em;line-height:1.25}.ds-unit{font-size:28px}.ds-calibration{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid #899168}.ds-calibration i{height:6px;border-left:1px solid #899168}.ds-calibration i:nth-child(3n+1){height:12px}.ds-formula{padding-top:11px;min-height:29px;font-size:12px;text-align:center;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.ds-source{padding:21px 0 18px}.ds-source-label{font-size:12px;font-weight:650;letter-spacing:.1em;color:#5c6054}.ds-quote{margin:8px 0 11px;font-size:23px;font-weight:500;letter-spacing:-.02em;line-height:1.3;overflow-wrap:anywhere}.ds-explanation{margin:0;max-width:50ch;font-size:14px;line-height:1.5;color:#56594e}.ds-reading-changed{animation:ds-readout .3s cubic-bezier(.16,1,.3,1)}@keyframes ds-readout{from{filter:blur(2px)}to{filter:blur(0)}}@media(max-width:760px){.ds-instrument{padding:22px}.ds-display{padding-left:18px;padding-right:18px}.ds-reading{min-height:126px}.ds-reading-value{font-size:clamp(64px,20vw,84px)}.ds-unit{font-size:24px}.ds-source{padding:19px 0}.ds-explanation{font-size:13px}}@media(prefers-reduced-motion:reduce){.ds-reading-changed{animation:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Kitchen Scale",
+    "overview": "MeasureBack borrows the readable surfaces and deliberate controls of a domestic kitchen scale. Cool pale gray provides the working ground; a yellow inset display gives quantities a distinct place; vermilion marks actions. A white recipe sheet and plain source quotations keep the surrounding material easy to read.\n\nThe visual language is compact and practical. Large numerals make a measurement legible at a glance, while units, formulas, status text and the cook's words explain what the number means. The instrument metaphor comes from geometry, contrast and controls. There are no simulated brushed textures or decorative photographs.",
+    "keyCharacteristics": [
+      "Pale working surfaces with one yellow measurement display.",
+      "Self-hosted Atkinson typography and tabular quantities.",
+      "Soft instrument depth beside a flat recipe sheet.",
+      "Direct action labels, visible source words and explicit uncertainty.",
+      "One brief readout transition with a reduced-motion alternative."
+    ],
+    "rules": [
+      {
+        "name": "The Readable State Rule",
+        "body": "Color reinforces a written state; it never replaces the status, unit or recovery instruction.",
+        "section": "colors"
+      },
+      {
+        "name": "The Number and Unit Rule",
+        "body": "Keep the quantity, its unit and its explanation distinct in scale but visibly connected. A question mark is meaningful unresolved data, not an icon.",
+        "section": "typography"
+      },
+      {
+        "name": "The Instrument Depth Rule",
+        "body": "Reserve ambient lift and inset depth for the measuring instrument. Use a border or a divider to organize ordinary content.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep quantities, units, source quotations and written status close enough to inspect together.",
+      "Do use tabular numerals for amounts, serving counts, formulas and multipliers.",
+      "Do preserve a clear difference between the inset measurement instrument and the flat ingredient ledger.",
+      "Do retain visible keyboard focus, persistent field labels and reduced-motion behavior.",
+      "Do let long quantities and source text wrap without widening their column."
+    ],
+    "donts": [
+      "Don't imply certainty through color or a large number when the measurement is unresolved.",
+      "Don't turn ingredient rows or transcript turns into separate floating cards.",
+      "Don't add fake brushed textures, decorative photography or unrelated technical motifs.",
+      "Don't substitute Unicode arrows or emoji for the authored SVG icon system.",
+      "Don't reuse the measurement transition as an entrance effect on every section."
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+name: Verify and publish example
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check Python
+        run: python3 -c 'import sys; assert sys.version_info >= (3, 10)'
+      - name: Run tests without calls or credentials
+        run: python3 -m unittest discover -s tests -v
+      - name: Export the authored public example
+        run: python3 -m measureback export --output artifacts/site
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: artifacts/site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish static example
+        id: deployment
+        uses: actions/deploy-pages@v4
