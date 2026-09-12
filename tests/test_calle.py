@@ -1,4 +1,5 @@
 from concurrent.futures import ThreadPoolExecutor
+from contextlib import closing
 from datetime import datetime, timedelta, timezone
 import json
 from pathlib import Path
@@ -180,8 +181,9 @@ class CallTests(unittest.TestCase):
 
     def test_submitting_reservation_blocks_after_crash(self):
         self.execute()
-        with sqlite3.connect(self.store) as connection:
-            connection.execute("UPDATE calls SET state='submitting', call_id=NULL")
+        with closing(sqlite3.connect(self.store)) as connection:
+            with connection:
+                connection.execute("UPDATE calls SET state='submitting', call_id=NULL")
         result = self.execute()
         self.assertEqual(result["state"], "submitting")
         self.assertEqual(len(self.calls), 1)

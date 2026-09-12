@@ -4,6 +4,8 @@ An AI phone interview that asks what "two bowls" means, keeps the cook's correct
 
 CALL E carries the interview. Python validates the source quotations and does the arithmetic. The browser shows the recipe beside the words it came from.
 
+[Try the public walkthrough](https://himanshu748.github.io/measureback/) or inspect the [official contribution PR](https://github.com/CALLE-AI/awesome-phone-call-agents/pull/489). The hosted walkthrough uses the authored example and cannot place calls.
+
 ## Try it without a call
 
 Requires Python 3.10 or newer. No third party Python packages, account or API key is needed for the example.
